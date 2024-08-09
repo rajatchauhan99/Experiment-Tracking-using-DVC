@@ -18,8 +18,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 
 # Define the model with some parameters
-n_estimators = 50
-max_depth = 7
+n_estimators = 100
+max_depth = 3
 model = RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth, random_state=42)
 
 
